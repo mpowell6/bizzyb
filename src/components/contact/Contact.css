@@ -1,0 +1,13 @@
+.headerArea {
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.contactStatement.col-md-8 {
+    width: 400px;
+    height: 150px;
+    justify-content: left;
+    align-content: left;
+}

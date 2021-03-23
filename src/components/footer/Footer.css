@@ -1,0 +1,26 @@
+.grid-row {
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.col {
+    width: 50px;
+}
+
+h6 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px 25px
+}
+
+.col p {
+    padding: 5px 5px;
+    justify-content: center;
+    width: 350px;
+    margin: 0px 25px;
+}

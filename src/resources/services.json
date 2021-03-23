@@ -1,0 +1,26 @@
+{
+    "serviceStatement": "Bizzy B Plumbing & Home Improvement offers all Types of services to fill your needs.",
+    "serviceStatement2": "Bizzy B strives to successfully serve your plumbing and home improvement needs. Whether it be plumbing, electrical work, or any home improvement, we can do it. When you're too busy, let us \"B\" there you!",
+    "plumbingTitle": "Plumbing",
+    "plumbingServices": "water heaters installed, water heaters repaired, faucets installed, faucets repaired, tank-less water heaters installed or repaired, water lines repaired or replaced, sewer lines replaced, gas lines, pressure reducing valves, Pex Piping, bathroom remodels, kitchen remodels, hot tub repair, sump pumps, whole house filtration systems, drain pipe installation, drain cleaning, sewer cleaning, water coolers, water softeners, well tanks and much more.",
+    "electricTitle": "Electric",
+    "electricServices": "electrical repair work, phone wiring, lamp repair, landscape lighting, lighting general, rewiring lights, installing electrical sub-panels, repair of electrical panels, custom lighting, led lighting conversion, outlet repair, light switch repair, ceiling fans installed, appliance outlets, basically any thing electrical you need done.",
+    "homeImprovementTitle": "Home Improvement",
+    "homeImprovementServices": "custom tile work, doors, windows, carpentry, woodworking, deck maintenance, decks, porches, dock building & repair, doors, drywall, fencing, flooring installation/repair, glass block, gutter cleaning, handymen, hardwood flooring installation/refinishing, mailbox repair, painting exterior, painting interior, pressure washing, remodeling basements, remodeling general, remodeling kitchen & bathroom, remodeling modular/mobile home, concrete work, and just about anything else you need.",
+    "licenseStatement": "We are licensed and bonded and we have been certified in many products. We are a proud supplier of Delta Faucets, and Hague Quality Water Systems. Financing is available, give us a call today!",
+    "clickPlumbing": "Click here to learn more about what plumbing jobs we offer!",
+    "clickElectric": "Click here to learn more about what electrical jobs we offer!",
+    "clickHomeImp": "Click here to learn more about what home improvement jobs we offer!",
+    "servicesCarousel": [
+        {
+            "image": "./servicesGallery/decksBuilt.jpg",
+            "alt": "Decks Built",
+            "caption": "Decks Built"
+        },
+        {
+            "image": "./servicesGallery/underDeckWaterProof.jpg",
+            "alt": "Deck Waterproofing",
+            "caption": "Deck Waterproofing"
+        }
+    ]
+}
