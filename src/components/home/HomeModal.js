@@ -29,7 +29,7 @@ class HomeModal extends React.Component {
         <Button className="btn-primary" onClick={this.showModal}>
           Learn more
         </Button>
-        <Modal show={this.state.show}>
+        <Modal show={this.state.show} dialogClassName={"infoModal"} size="xl" >
           <Modal.Header>{this.props.title}</Modal.Header>
           <Modal.Body>
             <div dangerouslySetInnerHTML={{ __html: this.props.body }}></div>

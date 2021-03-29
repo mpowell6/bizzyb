@@ -10,7 +10,7 @@ const HomeCard = () => {
       {blog.map((entry) => {
         return (
           <div className="homecard card text-center">
-            <div className="overflow">
+            <div className="cardImage">
               <img src={entry.img} alt="" />
             </div>
             <div className="card-body text-dark">
