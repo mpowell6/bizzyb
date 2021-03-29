@@ -1,10 +1,8 @@
 import React from "react";
-import ServiceCard from "./ServicesCard";
 import ServicesCarousel from "./ServicesCarousel";
 import { Jumbotron, Container } from "react-bootstrap";
-import { FiTool, FiZap, FiHome } from "react-icons/fi";
 import logo from "./headerImg.jpg";
-import './Services.css';
+import "./Services.css";
 
 const services = require("../../resources/services.json");
 
@@ -19,39 +17,52 @@ class Service extends React.Component {
                 {services.serviceStatement2}
               </p>
               <div className="servCarousel">
-                <ServicesCarousel />
+                <ServicesCarousel imgSources={services.servicesCarousel}/>
               </div>
             </div>
           </Container>
         </Jumbotron>
-        <div className="container-fluid d-flex justify-content-center">
-          <div className="row">
-            <div className="col-md-4">
-              <ServiceCard
-                icon={FiTool}
-                title={services.plumbingTitle}
-                body={services.clickPlumbing}
-                card={services.plumbingServices}
-              />
+        <Jumbotron fluid bsPrefix="Jumbotron">
+          <Container bsPrefix="plumbingContainer">
+            <div className="plumbingBodyArea">
+              <h3>{services.plumbingTitle}</h3>
+              <div
+                dangerouslySetInnerHTML={{ __html: services.plumbingServices }}
+              ></div>
             </div>
-            <div className="col-md-4">
-              <ServiceCard
-                icon={FiZap}
-                title={services.electricTitle}
-                body={services.clickElectric}
-                card={services.electricServices}
-              />
+            <div className="imageArea">
+              <img src={logo} alt="logo" className="col-md-8" />
             </div>
-            <div className="col-md-4">
-              <ServiceCard
-                icon={FiHome}
-                title={services.homeImprovementTitle}
-                body={services.clickHomeImp}
-                card={services.homeImprovementServices}
-              />
+          </Container>
+        </Jumbotron>
+        <Jumbotron fluid bsPrefix="Jumbotron">
+          <Container bsPrefix="electricContainer">
+            <div className="electricBodyArea">
+              <h3>{services.electricTitle}</h3>
+              <div
+                dangerouslySetInnerHTML={{ __html: services.electricServices }}
+              ></div>
+              <div className="imageArea">
+                <img src={logo} alt="logo" className="col-md-8" />
+              </div>
             </div>
-          </div>
-        </div>
+          </Container>
+        </Jumbotron>
+        <Jumbotron fluid bsPrefix="Jumbotron">
+          <Container bsPrefix="homeContainer">
+            <div className="homeBodyArea">
+              <h3>{services.homeImprovementTitle}</h3>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: services.homeImprovementServices,
+                }}
+              ></div>
+              <div className="imageArea">
+                <img src={logo} alt="logo" className="col-md-8" />
+              </div>
+            </div>
+          </Container>
+        </Jumbotron>
         <Jumbotron fluid bsPrefix="contentJumbotron">
           <Container bsPrefix="bodyContainer">
             <div className="bodyArea">

@@ -1,6 +1,5 @@
 import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
-import Footer from '../footer/Footer';
 import "./Contact.css";
 
 const contact = require("../../resources/contact.json");
