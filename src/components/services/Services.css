@@ -13,8 +13,8 @@
     background-color: #212529 !important;
 }
 
-.servCarousel {
-    max-height: 250px;
+.servCarousel img{
+    max-height: 300px;
     max-width: 1000px;
     overflow: hidden;
     object-fit: cover;
@@ -40,10 +40,12 @@
   }
 
 .imageArea img{
-    justify-content: center;
-    align-content: center;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    max-height: 400px;
+    max-width: 1000px;
+    overflow: hidden;
+    object-fit: scale-down;
 }
 
 .content.col {

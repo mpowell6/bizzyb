@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { Jumbotron, Container, Row, Col } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap";
 
 const about = require("../../resources/about.json");
 

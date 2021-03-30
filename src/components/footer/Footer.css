@@ -24,3 +24,12 @@
   font-size: .8rem;
   text-align: justify;
 }
+
+.footerContact a {
+  color: #00aeff;
+}
+
+.image {
+  justify-content: center;
+  align-content: center;
+}

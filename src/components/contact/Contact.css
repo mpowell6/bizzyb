@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    background-color: #8d9094 !important;
+    background-color: #212529 !important;
     color: white;
 }
 
@@ -17,4 +17,8 @@
 
 .headerContainer.col-md-6 p {
     font-size: 1.75rem;
+}
+
+.jumbotron.contactJumbotron a {
+    color: #00aeff;
 }

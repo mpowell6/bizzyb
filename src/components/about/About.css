@@ -9,6 +9,10 @@
 }
 
 .aboutJumbotron p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: auto;
+}
+
+.aboutJumbotron a {
+    color: #00aeff;
 }

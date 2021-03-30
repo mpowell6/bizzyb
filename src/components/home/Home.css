@@ -9,10 +9,12 @@
 }
 
 .cardImage img{
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+  display: block;
+  margin: auto;
+  max-height: 400px;
+  max-width: 1000px;
+  overflow: hidden;
+  object-fit: scale-down;
 }
 
 .card-body.text-dark {
