@@ -1,13 +1,15 @@
-import React from 'react';
-import HomeCard from './HomeCard';
-import './Home.css';
+import React from "react";
+import HomeCard from "./HomeCard";
+import "./Home.css";
 
-const Home = () => {
+class Home extends React.Component {
+  render() {
     return (
-        <div>
-            <HomeCard />
-        </div>
-    )
+      <div>
+        <HomeCard />
+      </div>
+    );
+  }
 }
 
-export default Home
+export default Home;
