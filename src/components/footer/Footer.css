@@ -5,3 +5,21 @@
   position: sticky;
   top: 100%;
 }
+
+.footerContainer {
+  width: 100%;
+  display: block;
+}
+
+.footerInfo.col {
+  padding: 0 15px;
+}
+
+.footerInfo.col h4{
+  text-align: center;
+}
+
+.footerInfo.col p{
+  font-size: .8rem;
+  text-align: justify;
+}
