@@ -1,0 +1,14 @@
+.aboutJumbotron {
+    color: white;
+}
+
+.aboutJumbotron img {
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.aboutJumbotron p {
+    font-size: 1rem;
+    margin: auto;
+}

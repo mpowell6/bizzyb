@@ -7,18 +7,26 @@ const contact = require("../../resources/contact.json");
 const Contact = () => {
   return (
     <div className="Contact">
-      <Jumbotron fluid bsPrefix="headerJumbotron">
-        <Container bsPrefix="headerContainer">
+      <Jumbotron className="contactJumbotron">
+        <Container bsPrefix="headerContainer col-md-6">
+          <div className="headerImg col-md-6">
+            <img src={`/resources/images/site/headerImg.jpg`} alt="Logo" />
+            <br />
+            <br />
+          </div>
           <div className="headerArea">
-            <div className="contactStatement col-md-8">
-              {contact.travelStatement}
-              <br />
-              {contact.contactStatement}
-              <a href={contact.emailLink}>{contact.email}</a>
-              <br />
-              {contact.businessStatement}
+            <div className="contactStatement">
+              <p>
+                {contact.travelStatement}
+                <br />
+                {contact.contactStatement}
+                <a href={contact.emailLink}>{contact.email}</a>
+                <br />
+                {contact.businessStatement}
+              </p>
             </div>
-            <div className="col-md-8">
+            <br />
+            <div className="contact">
               {contact.title}
               <br />
               {contact.address}

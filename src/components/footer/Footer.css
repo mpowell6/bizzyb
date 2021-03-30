@@ -6,9 +6,10 @@
   top: 100%;
 }
 
-.footerContainer {
+.footerContainer.row {
   width: 100%;
-  display: block;
+  display: flex;
+  padding-top: 1%;
 }
 
 .footerInfo.col {

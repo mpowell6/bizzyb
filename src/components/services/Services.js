@@ -1,7 +1,6 @@
 import React from "react";
 import ServicesCarousel from "./ServicesCarousel";
 import { Jumbotron, Container, Row, Col } from "react-bootstrap";
-import logo from "./headerImg.jpg";
 import "./Services.css";
 
 const services = require("../../resources/services.json");
@@ -14,7 +13,7 @@ class Service extends React.Component {
           <Container bsPrefix="headerContainer">
             <Row>
               <Col>
-                <img src={logo} alt="logo" />
+                <img src={"/resources/images/site/headerImg.jpg"} alt="logo" />
               </Col>
               <Col className="headerContent">
                 <div className="HeaderArea">
