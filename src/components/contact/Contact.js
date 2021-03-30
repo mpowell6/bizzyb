@@ -9,11 +9,6 @@ const Contact = () => {
     <div className="Contact">
       <Jumbotron className="contactJumbotron">
         <Container bsPrefix="headerContainer col-md-6">
-          <div className="headerImg col-md-6">
-            <img src={`/resources/images/site/headerImg.jpg`} alt="Logo" />
-            <br />
-            <br />
-          </div>
           <div className="headerArea">
             <div className="contactStatement">
               <p>
