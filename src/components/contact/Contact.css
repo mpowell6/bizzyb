@@ -22,3 +22,7 @@
 .jumbotron.contactJumbotron a {
     color: #00aeff;
 }
+
+.headerImg.col-md-6 img {
+    margin: auto;
+}
