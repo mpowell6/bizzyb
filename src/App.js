@@ -9,7 +9,8 @@ import Services from "./components/services/Services";
 
 function App() {
   return (
-    <div className="App">
+    <div className="page-container">
+      <div className="content-wrap">
       <Navbar />
       <Router>
         <Switch>
@@ -28,6 +29,7 @@ function App() {
         </Switch>
       </Router>
       <Footer />
+      </div>
     </div>
   );
 }

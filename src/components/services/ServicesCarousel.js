@@ -6,17 +6,15 @@ class ServicesCarousel extends React.Component {
 
   render() {
     return (
-      <div className="carousel col-6">
         <Carousel>
           {this.props.imgSources.map((item) => {
             return (
-              <Carousel.Item interval={10000}>
-                <img src={item.img} />
+              <Carousel.Item interval={5000}>
+                <img src={item.img} alt={item.alt} />
               </Carousel.Item>
             );
           })}
         </Carousel>
-      </div>
     );
   }
 }
