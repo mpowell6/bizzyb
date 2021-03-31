@@ -33,3 +33,41 @@
   justify-content: center;
   align-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .main-footer {
+    background: #333;
+    color: white;
+    padding: 3em;
+    position: sticky;
+    top: 100%;
+  }
+  
+  .footerContainer.row {
+    width: 100%;
+    display: flex;
+    padding-top: 1%;
+  }
+  
+  .footerInfo.col {
+    padding: 0 15px;
+  }
+  
+  .footerInfo.col h4{
+    text-align: center;
+  }
+  
+  .footerInfo.col p{
+    font-size: .8rem;
+    text-align: justify;
+  }
+  
+  .footerContact a {
+    color: #00aeff;
+  }
+  
+  .image.col img {
+    margin: 10px auto;
+    display: flex;
+  }
+}
