@@ -11,8 +11,8 @@
 .cardImage img{
   display: block;
   margin: auto;
-  max-height: 400px;
-  max-width: 1000px;
+  max-height: 200px;
+  max-width: 750px;
   overflow: hidden;
   object-fit: scale-down;
 }
@@ -26,3 +26,13 @@
 .card:hover {
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
   }
+
+.modal-content {
+  background: rgb(184, 181, 181) !important;
+  max-height: 100vh !important;
+}
+
+.modal-header {
+  align-items: center !important;
+  justify-content: center !important;
+}

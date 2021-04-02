@@ -29,8 +29,8 @@ class HomeModal extends React.Component {
         <Button className="btn-primary" onClick={this.showModal}>
           Learn more
         </Button>
-        <Modal show={this.state.show} dialogClassName={"infoModal"} size="xl" >
-          <Modal.Header>{this.props.title}</Modal.Header>
+        <Modal show={this.state.show} dialogClassName={"infoModal"} size="xl" scrollable={true} >
+          <Modal.Header><h2>{this.props.title}</h2></Modal.Header>
           <Modal.Body>
             <div dangerouslySetInnerHTML={{ __html: this.props.body }}></div>
           </Modal.Body>

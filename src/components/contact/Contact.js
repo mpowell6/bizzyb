@@ -14,7 +14,7 @@ const Contact = () => {
               <p>
                 {contact.travelStatement}
                 <br />
-                {contact.contactStatement}
+                {contact.contactStatement} <a href={contact.phoneLink}>{contact.phone}</a>{contact.contactStatement2}
                 <a href={contact.emailLink}>{contact.email}</a>
                 <br />
                 {contact.businessStatement}
@@ -28,7 +28,7 @@ const Contact = () => {
               <br />
               {contact.city}, {contact.state} {contact.zip}
               <br />
-              {contact.phone}
+              <a href={contact.phoneLink}>{contact.phone}</a>
             </div>
           </div>
         </Container>

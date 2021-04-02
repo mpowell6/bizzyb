@@ -10,16 +10,14 @@ import Services from "./components/services/Services";
 function App() {
   return (
     <div className="page-container">
-      <div className="content-wrap">
       <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/Services" component={Services} />
-          <Route path="/About" component={About} />
-          <Route path="/Contact" component={Contact} />
-        </Switch>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/Services" component={Services} />
+        <Route path="/About" component={About} />
+        <Route path="/Contact" component={Contact} />
+      </Switch>
       <Footer />
-      </div>
     </div>
   );
 }

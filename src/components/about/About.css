@@ -16,3 +16,11 @@
 .aboutJumbotron a {
     color: #00aeff;
 }
+
+.content {
+    padding: .2rem 2rem;
+}
+
+.content p {
+    text-align: justify !important;
+}

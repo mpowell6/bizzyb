@@ -1,74 +1,90 @@
-.Services p, .Services ul, .Services li, .Services h3{
-    color: white;
+.Services p,
+.Services ul,
+.Services li,
+.Services h3 {
+  color: white;
 }
 
-.jumbotron{
-    width: auto;
-    margin: 1% 1%;
-    padding: 10px 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    background-color: #212529 !important;
+.jumbotron {
+  width: auto;
+  margin: 1% 1%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: #212529 !important;
 }
 
-.servCarousel img{
-    max-height: 300px;
-    max-width: 1000px;
-    overflow: hidden;
-    object-fit: cover;
+.servCarousel img {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .headerContent.col {
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    font-weight: 700;
-    color: white;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  font-weight: 700;
+  color: white;
 }
 
 .col ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-  }
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 
-  .content h3, .content p, .content ul, .content li {
-      text-align: center;
-      list-style: none;
-  }
+.content h3,
+.content p,
+.content ul,
+.content li {
+  text-align: center;
+  list-style: none;
+}
 
-.imageArea img{
-    display: block;
-    margin: auto;
-    max-height: 400px;
-    max-width: 1000px;
-    overflow: hidden;
-    object-fit: scale-down;
+.imageArea.col {
+  display: flex;
+}
+
+.imageArea img {
+  margin: auto;
+  max-height: 300px;
+  max-width: 750px;
+  overflow: hidden;
+  object-fit: scale-down;
+  justify-content: center;
+  align-content: center;
 }
 
 .content.col {
-    justify-content: center;
-    align-content: center;
-    display: block;
-    margin: auto;
-    text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 .bodyContainer {
-    margin: 0 auto;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: 600;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
 }
 
 .bodyArea {
-    padding: 15px;
+  padding: 15px;
 }
 
 .servCarousel {
-    margin: auto;
+  margin: auto;
+  height: 300px;
+  max-width: 400px;
 }
 
+.carousel {
+  height: 300px;
+}
