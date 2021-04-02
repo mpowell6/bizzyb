@@ -39,7 +39,7 @@ const Footer = () => {
             Serving Knoxville, Maryville, & surrounding areas <br />
             Financing Available!
           </p>
-          <p>Phone: +1-865-591-8500</p>
+          <p>Phone: <a href="tel:865-591-8500">+1-865-591-8500</a></p>
           <p>
             Email: <a href="emailto:info@bizzybplumbing.com">info@bizzybplumbing.com</a>
           </p>

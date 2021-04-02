@@ -12,7 +12,7 @@ class Service extends React.Component {
         <Jumbotron>
           <Container bsPrefix="headerContainer">
             <Row>
-              <Col>
+              <Col className="headerImg">
                 <img src={"/resources/images/site/headerImg.jpg"} alt="logo" />
               </Col>
               <Col className="headerContent">
@@ -36,14 +36,12 @@ class Service extends React.Component {
                   }}
                 ></div>
               </Col>
-              <Col>
-                <div className="imageArea">
+              <Col className="imageArea">
                   <img
                     src={services.plumbingImg}
                     alt="plumbingImg"
                     className="col-md-8"
                   />
-                </div>
               </Col>
             </Row>
           </Container>
@@ -51,14 +49,12 @@ class Service extends React.Component {
         <Jumbotron>
           <Container bsPrefix="electricContainer">
             <Row>
-              <Col>
-                <div className="imageArea">
+              <Col className="imageArea">
                   <img
                     src={services.electricImg}
                     alt="electricImg"
                     className="col-md-8"
                   />
-                </div>
               </Col>
               <Col className="content">
                 <h3>{services.electricTitle}</h3>
@@ -82,14 +78,12 @@ class Service extends React.Component {
                   }}
                 ></div>
               </Col>
-              <Col>
-                <div className="imageArea">
+              <Col className="imageArea">
                   <img
                     src={services.improvementImg}
                     alt="homeImproveImg"
                     className="col-md-8"
                   />
-                </div>
               </Col>
             </Row>
           </Container>

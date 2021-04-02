@@ -1,22 +1,47 @@
 .aboutJumbotron {
-    color: white;
+  color: white;
 }
 
 .aboutJumbotron img {
-    max-height: 500px;
-    max-width: 500px;
-    margin: auto;
+  max-height: 500px;
+  max-width: 500px;
+  margin: auto;
 }
 
 .aboutJumbotron p {
-    font-size: 1.1rem;
-    margin: auto;
+  font-size: 1.1rem;
+  margin: auto;
 }
 
 .aboutJumbotron a {
-    color: #00aeff;
+  color: #00aeff;
+}
+
+.content {
+  padding: 0.2rem 2rem;
+}
+
+.content p {
+  text-align: justify !important;
 }
 
 @media only screen and (max-width: 600px) {
-    
+  .aboutJumbotron.jumbotron {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+      padding: 1.2rem;
+  }
+
+  .imageContent {
+      padding: 1.2rem;
+  }
+
+  .imageContent img {
+      max-height: 300px;
+      max-width: 300px;
+      display: flex;
+  }
 }
