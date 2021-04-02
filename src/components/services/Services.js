@@ -12,7 +12,7 @@ class Service extends React.Component {
         <Jumbotron>
           <Container bsPrefix="headerContainer">
             <Row>
-              <Col>
+              <Col className="headerImg">
                 <img src={"/resources/images/site/headerImg.jpg"} alt="logo" />
               </Col>
               <Col className="headerContent">

@@ -90,5 +90,35 @@
 }
 
 @media only screen and (max-width: 600px) {
-    
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerImg.col {
+    display: flex;
+    margin: 1.4rem;
+  }
+
+  .headerImg.col img {
+    max-height: 200px;
+    max-width: 87%;
+  }
+
+  .headerContent.col {
+    flex-wrap: nowrap;
+    text-align: justify;
+    margin: auto 1.8rem;
+    max-width: 85%;
+  }
+
+  .servCarousel {
+    margin: auto;
+    height: 300px;
+    max-width: 300px;
+  }
+
+  .Services p {
+    text-align: center !important!;
+  }
 }
