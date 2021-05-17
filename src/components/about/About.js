@@ -14,7 +14,7 @@ const About = () => {
         }}
       ></div>
       <div className="imageContent">
-        <img src={`/resources/images/site/shirtBack.jpg`} alt="Lance" />
+        <img src={`https://bizzyb.s3.us-east-2.amazonaws.com/site/shirtBack.jpg`} alt="shirtBack" />
       </div>
     </Jumbotron>
   );
