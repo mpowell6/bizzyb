@@ -7,7 +7,7 @@ const blog = require("../../resources/home.json");
 const HomeCard = () => {
   return (
     <div className="BlogCard">
-      {blog.map((entry) => {
+      {blog.map((entry, key) => {
         return (
           <div className="homecard card text-center">
             <div className="cardImage">
@@ -22,6 +22,7 @@ const HomeCard = () => {
                 title={entry.title}
                 pic={entry.title}
                 body={entry.body}
+                key={key}
               />
             </div>
           </div>

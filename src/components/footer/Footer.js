@@ -27,7 +27,7 @@ const Footer = () => {
       </Row>
       <Row className="footerContact">
         <Col className="image">
-          <img src="/resources/images/footer/logo.jpg" alt="logo" />
+          <img src="https://bizzyb.s3.us-east-2.amazonaws.com/footer/logo.jpg" alt="logo" />
         </Col>
         <Col>
           <p>
@@ -39,18 +39,37 @@ const Footer = () => {
             Serving Knoxville, Maryville, & surrounding areas <br />
             Financing Available!
           </p>
-          <p>Phone: <a href="tel:865-591-8500">+1-865-591-8500</a></p>
           <p>
-            Email: <a href="emailto:info@bizzybplumbing.com">info@bizzybplumbing.com</a>
+            Phone: <a href="tel:865-591-8500">+1-865-591-8500</a>
+          </p>
+          <p>
+            Email:{" "}
+            <a href="emailto:info@bizzybplumbing.com">
+              info@bizzybplumbing.com
+            </a>
           </p>
         </Col>
         <Col className="image">
-          <img src="resources/images/footer/angiesListAward.jpg" alt="AngiesListAward" />
+          <img
+            src="https://bizzyb.s3.us-east-2.amazonaws.com/footer/angiesListAward.jpg"
+            alt="AngiesListAward"
+          />
         </Col>
         <Col>
-          <a href="https://twitter.com/BizzyBPlumbing">Follow @BizzyBPlumbing</a> <br />
-          <a href="https://www.pinterest.com/bizzybplumbing/pins/">Follow us on Pintrest!</a> <br />
-          <a href="https://www.zillow.com/profile/bizzybplumbing/?scrnnm=bizzybplumbing"><img src="resources/images/footer/featuredZillow.png" alt="zillow" /></a>
+          <a href="https://twitter.com/BizzyBPlumbing">
+            Follow @BizzyBPlumbing
+          </a>{" "}
+          <br />
+          <a href="https://www.pinterest.com/bizzybplumbing/pins/">
+            Follow us on Pintrest!
+          </a>{" "}
+          <br />
+          <a href="https://www.zillow.com/profile/bizzybplumbing/?scrnnm=bizzybplumbing">
+            <img
+              src="https://bizzyb.s3.us-east-2.amazonaws.com/footer/featuredZillow.png"
+              alt="zillow"
+            />
+          </a>
         </Col>
       </Row>
     </div>

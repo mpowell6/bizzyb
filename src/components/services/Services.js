@@ -13,7 +13,7 @@ class Service extends React.Component {
           <Container bsPrefix="headerContainer">
             <Row>
               <Col className="headerImg">
-                <img src={"/resources/images/site/headerImg.jpg"} alt="logo" />
+                <img src={"https://bizzyb.s3.us-east-2.amazonaws.com/site/headerImg.jpg"} alt="logo" />
               </Col>
               <Col className="headerContent">
                 <div className="HeaderArea">
